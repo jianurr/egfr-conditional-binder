@@ -1,4 +1,5 @@
 # My first protein design: a conditional EGFR binder
+![Two BindCraft-accepted designs on EGFR domain III](media/designs.gif)
 
 Entry for **Challenge 1** of the Anthropic × Adaptyv Protein Design Competition (Proteinbase): design a binder to the extracellular region of EGFR that
 
