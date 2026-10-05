@@ -1,5 +1,17 @@
 # My first protein design: a conditional EGFR binder
 ![Two BindCraft-accepted designs on EGFR domain III](media/designs.gif)
+**What this shows:** the two designs that passed BindCraft's filters, each predicted in complex with human EGFR domain III (the cetuximab-binding domain, residues 310-480 of the mature protein, from PDB 6ARU), superposed on the same receptor and rotating once.
+
+| Colour | What it is |
+|---|---|
+| Grey-blue surface | EGFR domain III (target, chain A) |
+| Pink ribbon | Design mpnn3 (submitted as `egfr_c1_01`): 76 aa, i_pTM 0.85, i_pAE 0.17 |
+| Blue ribbon | Design mpnn1 (submitted as `egfr_c1_08`): 76 aa, i_pTM 0.84, i_pAE 0.17 |
+| Sticks on the binders | Positions 7, 11, 14, 38 and 40, the positions I analysed for a histidine-based pH switch |
+
+The two designs come from the same BindCraft trajectory and are 74% identical, so they bind in a similar way.
+
+**What this does not show:** these are AlphaFold2 predictions from BindCraft, not experimental structures. The animation is a rotating view of static models, not a simulation of binding or conformational change, and it says nothing about pH or mouse binding. Binding is untested.
 
 Entry for **Challenge 1** of the Anthropic × Adaptyv Protein Design Competition (Proteinbase): design a binder to the extracellular region of EGFR that
 
