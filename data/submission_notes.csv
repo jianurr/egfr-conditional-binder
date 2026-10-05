@@ -1,0 +1,10 @@
+name,length,his_count,description
+egfr_c1_01,76,1,"BindCraft accepted design mpnn3; contains His7 next to EGFR Asp"
+egfr_c1_02,76,2,"mpnn3 with R11H"
+egfr_c1_03,76,3,"mpnn3 with R11H K40H"
+egfr_c1_04,76,2,"mpnn3 with K40H"
+egfr_c1_05,76,2,"mpnn3 with Y14H"
+egfr_c1_06,76,2,"mpnn3 with S38H"
+egfr_c1_07,76,4,"mpnn3 with R11H Y14H K40H"
+egfr_c1_08,76,1,"BindCraft accepted design mpnn1"
+egfr_c1_09,76,3,"BindCraft scored design mpnn9; lower confidence, not in accepted set"

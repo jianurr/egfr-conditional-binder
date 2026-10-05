@@ -1,0 +1,13 @@
+# ChimeraX script: rotating movie of an EGFR/binder complex.
+# Edit the path, then in ChimeraX run:  open make_movie_chimerax.cxc
+open /path/to/1_egfr3_l76_s331609_mpnn3_model2.pdb
+set bgColor white
+color #1/A lightgray target c
+color #1/B hotpink target c
+cartoon
+lighting soft
+view
+movie record size 1280,720
+turn y 2 180
+wait 180
+movie encode egfr_binder.mp4 framerate 30
